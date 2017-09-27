@@ -1,0 +1,12 @@
+ipvalidos = ''
+ipinvalidos = ''
+list = {'192.168.1.64','192.168.1.32','192.168.1.63','192.168.1.31','192.168.1.0'}
+for ip in list:
+	if ip == '0.0.0.0':
+		ipvalidos = ipvalidos + ip
+    elif ipvalidos >=0 and ipvalidos <=255:
+		print('[IPs válidos:]')
+        print(ipvalidos)
+	else:
+		print('[IPs inválidos:]')
+        print(ipinvalidos)
